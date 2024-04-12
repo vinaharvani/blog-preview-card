@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--Yellow);
+    font-size: 16px;
+    font-family: 'Figtree';
+    padding: 5rem 1rem;
+
+}
+
+.container{
+    background-color: var(--White);
+    border-radius: 1rem;
+    box-shadow: 10px 10px black ;
+    padding: 1rem;
+    border: 1px solid black;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container div:first-child img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+button {
+    background-color: var(--Yellow);
+    font-size: 1rem;
+    padding: 3px 8px;
+    margin: 1rem 0;
+    border-radius: 3px;
+}
+ 
+.container div:nth-child(2) p.publish {
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.container div:nth-child(2) h2{
+    margin-bottom: 1rem;
+}
+
+.container div:nth-child(2) h2:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+}
+
+
+.container div:nth-child(2) p{
+    margin-bottom: 2rem;
+    color: var(--Grey);
+}
+
+.container div:nth-child(2) ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container div:nth-child(2) ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+
+
+
